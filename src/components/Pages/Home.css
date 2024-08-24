@@ -49,9 +49,23 @@
   font-size: var(--font-size-large);
   color: var(--text-color);
 }
-
+@media (max-width: 768px) {
+  .textContainer h1 {
+    font-size: 2em;
+    margin-top: 1em;
+  }
+}
 .textContainer .buttons {
   display: flex;
+}
+@media  (max-width: 768px) {
+  .textContainer .buttons {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: -10px;
+  }
+  
 }
 
 .textContainer .buttons button {
