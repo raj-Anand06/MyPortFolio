@@ -6,19 +6,13 @@
   height: 170vh;
   width: 100%;
 }
-
-.progress h1 {
-  font-size: 40px;
-  display: block;
-}
-@media(max-width: 768px) {
-  .progress h1 {
-    font-size: 24px;
-    display: block;
+@media (max-width: 768px) {
+  .projects {
+    height: 100vh;
   }
 }
 .progress {
-   /* Hide progress bar on small screens */
+  
   position: sticky;
   top: 0;
   left: 0;
@@ -26,19 +20,12 @@
   text-align: center;
   color: orange;
   font-size: 36px;
-  display: block;
 }
 
-@media (max-width: 768px) {
-  .progress {
-    padding-top: 20px;
-    font-size: 24px;
-  }
-
-  .progressBar {
-    display: none; /* Hide the progress bar itself on smaller screens */
-  }
+h1 {
+  font-size: 40px;
 }
+
 @media (min-width: 769px) {
   .progress {
     display: block; /* Show progress bar on screens wider than 768px */
@@ -152,7 +139,6 @@
 
     @media (max-width: 768px) {
       transform: translateX(0);
-      display: block;
       font-size: 18px; /* Adjust transform for small screens */
       gap: 0;
       margin-bottom: 0;
@@ -190,45 +176,7 @@
       margin-bottom: 20px;
     }
   }
-  @media (max-width: 425px) {
-    h1 {
-      font-size: 24px;
-      display: block; /* Smaller heading size for very small screens */
-    }
-  
-    .progress {
-      font-size: 24px;
-    }
-  
-    .imgContainer img {
-      max-width: 100%; /* Ensure the image scales down properly */
-      height: auto;
-      transform: none;
-    }
-  
-    .textContainer h2 {
-      font-size: 24px;
-      transform: none;
-    }
-  
-    .textContainer p {
-      font-size: 18px;
-      display: none;
-      transform: none;
-      display: block; /* Ensure the text is visible on smaller screens */
-    }
-  
-    .textContainer .buttons .button-link {
-      width: 100%;
-      text-align: center;
-      margin-bottom: 10px;
-    }
-  
-    button {
-      width: 100%;
-    }
-  }
-  
+
   .textContainer .buttons .button-link:hover {
     background-color: orange;
     scale: 1.1;
