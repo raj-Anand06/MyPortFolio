@@ -15,7 +15,7 @@ const SocialLinks = () => {
           <span className="social-link-text">LinkedIn</span>
         </>
       ),
-      href: "https://www.linkedin.com/in/vaishali-jain-571361229/",
+      href: "https://www.linkedin.com/in/anand-raj-10449524b/",
       style: "rounded-tr-md",
     },
     {
@@ -26,7 +26,7 @@ const SocialLinks = () => {
           <span className="social-link-text">GitHub</span>
         </>
       ),
-      href: "https://github.com/jainvaishali0408",
+      href: "https://github.com/raj-Anand06",
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ const SocialLinks = () => {
           <span className="social-link-text">Mail</span>
         </>
       ),
-      href: "mailto:jainvaishali850@gmail.com",
+      href: "mailto:rajanand62004@gmail.com",
     },
     {
       id: 4,
@@ -46,7 +46,7 @@ const SocialLinks = () => {
           <span className="social-link-text">Resume</span>
         </>
       ),
-      href: "https://drive.google.com/file/d/1xdqeeSsmwOmxOXLEssT4BxH04muChnGj/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1Kc4JOk5mjT3K298ajzexvCO4RIo9BLfz/view?pli=1",
       style: "rounded-br-md",
     },
   ];
